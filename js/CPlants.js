@@ -4194,7 +4194,7 @@ var CPlants = NewO({
 
     Tooltip: "Long-range shooter, but will cower when enemies are close",
 
-    Produce: 'The Shroom is a long-range shooter that hides when enemies approach. <p>Damage: <font color="#FF0000">Normal</font><br>Features: <font color="#FF0000">Stop attacking when the enemy approaches<br>Sleep during the day</font></ p> "Who's there?" Timid Mushroom whispered, his voice so subtle that it was difficult to distinguish. " </font><br>Go away! I don't want to see anyone. Unless...unless you are from the troupe."',
+    Produce: 'The Shroom is a long-range shooter that hides when enemies approach. <p>Damage: <font color="#FF0000">Normal</font><br>Features: <font color="#FF0000">Stop attacking when the enemy approaches<br>Sleeping during the day</font></ p> "Who's there?" Timid Mushroom whispered, his voice so subtle that it was difficult to distinguish. " </font><br>Go away! I don't want to see anyone. Unless...unless you are from the troupe."',
 
     GetDX: CPlants.prototype.GetDX,
 
@@ -5544,7 +5544,7 @@ oCactus = InheritO(CPlants, {
 
   Tooltip: "Illuminate an area so players can see through the fog of the battlefield",
 
-  Produce: 'Street lanterns can illuminate an area and allow you to see clearly the fog of the battlefield<p>Range: <font color="#FF0000">A circular area</font><br>Features: <font color=" #FF0000">Enables you to see clearly the fog of the battlefield</font></p> Lantern Grass rejects science, he will only immerse himself in hard work. Other plants</font><br>eat light and squeeze out oxygen. The lantern plant eats darkness, but squeezes out light. Lantern</font><br>Nepenthes is cautious about how he can produce light. "I wouldn't say it's 'witchcraft', and I</font><br>don't use 'dark powers', I just... I think I've said it</font><br>enough. "',
+  Produce: 'Street lanterns can illuminate an area and allow you to see clearly the fog of the battlefield<p>Range: <font color="#FF0000">A circular area</font><br>Features: <font color=" #FF0000">Enables you to see clearly the fog of the battlefield</font></p> Lantern Grass rejects science, he will only immerse himself in hard work. Other plants</font><br>eat light and squeeze out oxygen. The lantern plant eats darkness, but squeezes out light. Lantern</font><br>Nepenthes is cautious about how he can produce light. "I wouldn't say it's 'witchcraft,' and I </font><br>don't use 'dark power,' I just... I think I've said it </font><br>enough. "',
 
   PrivateBirth: function(c) {
 
@@ -6479,4 +6479,3 @@ oCactus = InheritO(CPlants, {
   Tooltip: "A shovel can remove plants!"
 
 });
-
